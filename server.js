@@ -29,7 +29,7 @@ cloudinary.config({
 connectDB()
 
 app.use(cors({
-    origin: ["https://www.artline.tech","http://localhost:3000","https://artlinetech.vercel.app","https://artline.tech","https://artline-backend.vercel.app"]
+    origin: ["https://artline.solutions","http://localhost:3000","https://artlinetech.vercel.app","https://artline.tech","https://artline-backend.vercel.app"]
 }))
 
 // It is mandatory, otherwise you will be unable to find the error why the image is not uploading 🤣😥
